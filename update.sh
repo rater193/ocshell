@@ -3,6 +3,7 @@ sudo apt-get install nodejs npm zip unzip rar unrar -y
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow from 188.210.7.189
+sudo ufw allow from 68.184.25.52
 sudo ufw allow 80:80/tcp
 sudo ufw allow 80:80/udp
 sudo ufw allow 443:443/tcp
